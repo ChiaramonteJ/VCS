@@ -1,0 +1,184 @@
+/* main.css */
+
+/* Global Styles */
+body {
+    background-color: #ffc1fd; /* Light pink background for all pages */
+    color: black; /* Default text color */
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ff37fa; /* Vibrant pink for header */
+  }
+  
+  .navbar a.nav-link {
+    color: white !important; /* White text for nav links */
+    transition: color 0.3s;
+  }
+  
+  .navbar a.nav-link:hover {
+    color: black !important; /* Black on hover for contrast */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: white; /* Ensure the hamburger menu is visible */
+  }
+  
+/* Book Now Button */
+.navbar .btn {
+    background-color: #ffc1fd; /* Accent color */
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .btn:hover {
+    background-color: #ff37fa; /* Main color */
+    color: white;
+}
+
+  /* Hero Section */
+  .hero-section {
+    color: white;
+    text-align: center;
+  }
+  
+  /* Buttons */
+  .btn {
+    background-color: #ff37fa;
+    border: none;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #ffc1fd;
+    color: black;
+  }
+  
+  /* Cards */
+  .card {
+    background-color: white;
+    border: 1px solid #ff37fa;
+  }
+  
+  .card-title {
+    color: #ff37fa;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #ff37fa;
+    color: white;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: black;
+  }
+/* Hero Section */
+.hero-section {
+    background-image: url('/images/hero/vcschristmashero\ copy.jpeg'); /* Replace with actual image path */
+    background-size: cover; /* Ensures the image covers the section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    height: 600px; /* Fixed height; adjust as necessary */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    overflow: hidden; /* Ensures no excess content spills out */
+  }
+  
+  /* Alternative for full-width scaling while maintaining aspect ratio */
+  .hero-section img {
+    width: 100%; /* Ensures image fits the width of the container */
+    height: auto; /* Maintains the aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Push image behind content */
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.7); /* Black overlay with 50% opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    color: white;
+    z-index: 2;
+    position: relative;
+  }
+
+/* Services Section */
+.services-section {
+    padding: 2rem 0;
+  }
+  
+  .services-section .row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* Adds spacing between cards */
+  }
+  
+  .services-section .service-box {
+    background-color: white; /* Card background */
+    border: 2px solid #ff37fa; /* Matches the theme color */
+    border-radius: 8px; /* Smooth corners */
+    padding: 1.5rem;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .services-section .service-box:hover {
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+  }
+  
+  .services-section .service-box i {
+    font-size: 3rem; /* Larger icons */
+    color: #ff37fa;
+    margin-bottom: 1rem;
+  }
+  
+  .services-section .service-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .services-section .service-box p {
+    font-size: 1rem;
+    color: #333;
+  }
+
+  /* Gallery Image */
+.card-img-top {
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Modal Image */
+  .modal-body img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

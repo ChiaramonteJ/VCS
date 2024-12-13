@@ -81,7 +81,7 @@ body {
   footer a:hover {
     color: black;
   }
-/* Hero Section */
+/* Main Hero Section */
 .hero-section {
     background-image: url('../images/hero/vcschristmashero.jpeg'); /* Replace with actual image path */
     background-size: cover; /* Ensures the image covers the section */
@@ -122,7 +122,7 @@ body {
     position: relative;
   }
 /* Hero Images */
-.hero-section {
+.about-hero {
   background-image: url('../images/hero/About.png'); /* Replace with actual image path */
   background-size: cover; /* Ensures the image covers the section */
   background-position: bottom; /* Centers the image */
@@ -134,6 +134,27 @@ body {
   text-align: center;
   position: relative;
   overflow: hidden; /* Ensures no excess content spills out */
+}
+/* Deep Cleaning Hero Section */
+.deep-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/deep-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+/* Appliance Cleaning Hero Section */
+.appliance-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/appliance-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+/* Regular Cleaning Hero Section */
+.regular-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/regular-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
 }
 
 /* Services Section */
@@ -313,13 +334,6 @@ body {
   background-color: #ffc1fd;
   border-color: #ffc1fd;
 }
-/* Deep Cleaning Hero Section */
-.deep-clean-hero {
-  height: 400px;
-  background-image: url('/images/hero/deep-clean-hero.jpg'); /* Replace with actual image path */
-  background-size: cover;
-  background-position: center;
-}
 
 /* Benefits Section */
 .benefits-section .bi {
@@ -330,13 +344,6 @@ body {
 .benefits-section .bi:hover {
   color: #ffc1fd;
 }
-/* Appliance Cleaning Hero Section */
-.appliance-clean-hero {
-  height: 400px;
-  background-image: url('/images/hero/appliance-clean-hero.jpg'); /* Replace with actual image path */
-  background-size: cover;
-  background-position: center;
-}
 
 /* Benefits Section */
 .benefits-section .bi {
@@ -346,13 +353,6 @@ body {
 
 .benefits-section .bi:hover {
   color: #ffc1fd;
-}
-/* Regular Cleaning Hero Section */
-.regular-clean-hero {
-  height: 400px;
-  background-image: url('/images/hero/regular-clean-hero.jpg'); /* Replace with actual image path */
-  background-size: cover;
-  background-position: center;
 }
 
 /* Benefits Section */

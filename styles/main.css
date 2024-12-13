@@ -266,3 +266,36 @@ body {
   border-radius: 8px; /* Add rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
 }
+/* Contact Form */
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section .form-control {
+  border: 1px solid #ff37fa;
+  border-radius: 5px;
+}
+
+.contact-section .btn {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-section .btn:hover {
+  background-color: #ffc1fd;
+  border-color: #ffc1fd;
+}
+/* Gift Card Page Styling */
+.giftcard-section .bi {
+  color: #ff37fa;
+  margin-bottom: 1rem;
+}
+
+.giftcard-section .btn-lg {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.giftcard-section .btn-lg:hover {
+  background-color: #ffc1fd;
+  border-color: #ffc1fd;
+}

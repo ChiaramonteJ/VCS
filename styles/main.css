@@ -83,7 +83,7 @@ body {
   }
 /* Hero Section */
 .hero-section {
-    background-image: url('images/hero/vcschristmashero.jpeg'); /* Replace with actual image path */
+    background-image: url('../images/hero/vcschristmashero.jpeg'); /* Replace with actual image path */
     background-size: cover; /* Ensures the image covers the section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
@@ -182,3 +182,87 @@ body {
     height: auto;
     border-radius: 5px;
   }
+  /* Promotion Cards */
+.promotions-section .card {
+  border: 1px solid #ff37fa;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.promotions-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.promotions-section .card-title {
+  color: #ff37fa;
+}
+
+.promotions-section .card-text {
+  color: #333;
+}
+/* Blog Cards */
+.blog-list-section .card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border: 1px solid #ff37fa;
+}
+
+.blog-list-section .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.blog-list-section .card-title a {
+  color: #ff37fa;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.blog-list-section .card-title a:hover {
+  color: #333;
+}
+/* Blog Content Styling */
+.blog-content img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem; /* Add spacing between paragraphs */
+  line-height: 1.8; /* Improve text readability */
+  color: #333; /* Neutral text color for comfort */
+}
+
+.blog-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: #ff37fa; /* Use brand color */
+  border-bottom: 2px solid #ffc1fd; /* Underline effect */
+  padding-bottom: 0.5rem;
+}
+
+.blog-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.blog-content a {
+  color: #ff37fa;
+  text-decoration: underline;
+}
+
+.blog-content a:hover {
+  color: #333;
+  text-decoration: none;
+}
+/* Specific Styles for Blog Post Page */
+.blog-content img {
+  width: 60%; /* Make the image smaller */
+  max-width: 400px; /* Prevent overly large images on bigger screens */
+  margin: 0 auto; /* Center the image horizontally */
+  display: block; /* Ensure proper centering */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}

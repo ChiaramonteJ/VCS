@@ -121,6 +121,20 @@ body {
     z-index: 2;
     position: relative;
   }
+/* Hero Images */
+.hero-section {
+  background-image: url('../images/hero/About.png'); /* Replace with actual image path */
+  background-size: cover; /* Ensures the image covers the section */
+  background-position: bottom; /* Centers the image */
+  background-repeat: no-repeat;
+  height: 300px; /* Fixed height; adjust as necessary */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* Ensures no excess content spills out */
+}
 
 /* Services Section */
 .services-section {
@@ -298,4 +312,55 @@ body {
 .giftcard-section .btn-lg:hover {
   background-color: #ffc1fd;
   border-color: #ffc1fd;
+}
+/* Deep Cleaning Hero Section */
+.deep-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/deep-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Benefits Section */
+.benefits-section .bi {
+  color: #ff37fa;
+  margin-bottom: 1rem;
+}
+
+.benefits-section .bi:hover {
+  color: #ffc1fd;
+}
+/* Appliance Cleaning Hero Section */
+.appliance-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/appliance-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Benefits Section */
+.benefits-section .bi {
+  color: #ff37fa;
+  margin-bottom: 1rem;
+}
+
+.benefits-section .bi:hover {
+  color: #ffc1fd;
+}
+/* Regular Cleaning Hero Section */
+.regular-clean-hero {
+  height: 400px;
+  background-image: url('/images/hero/regular-clean-hero.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Benefits Section */
+.benefits-section .bi {
+  color: #ff37fa;
+  margin-bottom: 1rem;
+}
+
+.benefits-section .bi:hover {
+  color: #ffc1fd;
 }

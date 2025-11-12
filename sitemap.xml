@@ -12,8 +12,14 @@
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+        <loc>https://vibrantcleaningsolutionsllc.com/promotions.html</loc>
+        <lastmod>2025-11-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+  </url>
   <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services.html</loc>
+    <loc>https://vibrantcleaningsolutionsllc.com/all-services.html</loc>
     <lastmod>2025-11-12</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
@@ -30,4 +36,28 @@
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
+    <url>
+        <loc>https://vibrantcleaningsolutionsllc.com/move-in-move-out-cleaning.html</loc>
+        <lastmod>2025-11-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+  </url>
+    <url>
+        <loc>https://vibrantcleaningsolutionsllc.com/contact.html</loc>
+        <lastmod>2025-11-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+     <url>
+        <loc>https://vibrantcleaningsolutionsllc.com/appliance-cleaning.html</loc>
+        <lastmod>2025-11-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+     <url>
+        <loc>https://vibrantcleaningsolutionsllc.com/stories.html</loc>
+        <lastmod>2025-11-12</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
 </urlset>

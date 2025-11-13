@@ -29,8 +29,15 @@
 <section class="contact-section py-5 bg-light">
   <div class="container">
     <h2 class="text-center mb-4">Get in Touch</h2>
-    <form action="mailto:vibrantcleaningsolutionsllc@gmail.com" method="post" enctype="text/plain">
+    <!--<form action="mailto:vibrantcleaningsolutionsllc@gmail.com" method="post" enctype="text/plain"> -->
+     <form action="https://formsubmit.co/vibrantcleaningsolutionsllc@gmail.com" method="POST">
+      <!-- FormSubmit hidden fields -->
+      <input type="hidden" name="_subject" value="New message from your website">
+      <input type="hidden" name="_captcha" value="false"> <!-- disables the captcha popup -->
+      <input type="hidden" name="_template" value="table"> <!-- makes the email nicely formatted -->
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html"> <!-- optional redirect after submission -->
       
+ 
       <!-- Name / Email / Phone -->
       <div class="row mb-3">
         <div class="col-md-4">

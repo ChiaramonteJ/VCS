@@ -83,21 +83,55 @@ body {
   }
 /* Main Hero Section */
 .hero-section {
-  /* background-image: url('../images/hero/VCS_social_media_image.png'); */ /* Uncomment later when ready */
-  background-color: #000; /* Solid black background for now */
-  background-size: cover; /* Prepares for future background image */
-  background-position: center;
-  background-repeat: no-repeat;
-  
-  height: 350px; /* Adjust height as needed */
+  /* Ready for image if needed later */
+  /* background-image: url('../images/hero/VCS_social_media_image.png'); */
+
+  background: linear-gradient(-45deg, #000000, #35002b, #ff37fa, #330033);
+  background-size: 400% 400%;
+  animation: gradientMove 12s ease-in-out infinite;
+
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   position: relative;
   overflow: hidden;
-  color: #fff; /* Ensures text stands out on dark background */
+  color: #fff;
 }
+
+/* Soft pink glow overlay */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle at center, rgba(255, 55, 250, 0.25), transparent 65%);
+  animation: pulseGlow 6s ease-in-out infinite alternate;
+  z-index: 0;
+}
+
+/* Smooth looping gradient motion */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* Gentle ambient pulse */
+@keyframes pulseGlow {
+  0% { opacity: 0.3; transform: scale(1); }
+  100% { opacity: 0.7; transform: scale(1.2); }
+}
+
+/* Keep text above effects */
+.hero-section > * {
+  position: relative;
+  z-index: 1;
+}
+
 
 /* Future-proof for image-based hero setup */
 .hero-section img {

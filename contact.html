@@ -25,35 +25,88 @@
     </div>
   </section>
 
-  <!-- Contact Form Section -->
-  <section class="contact-section py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center mb-4">Get in Touch</h2>
-      <form action="mailto:vibrantcleaningsolutionsllc@gmail.com" method="post" enctype="text/plain">
-        <div class="row mb-3">
-          <div class="col-md-6">
-            <label for="name" class="form-label">Full Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Your Full Name" required>
-          </div>
-          <div class="col-md-6">
-            <label for="email" class="form-label">Email Address</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
-          </div>
+<!-- Contact Form Section -->
+<section class="contact-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Get in Touch</h2>
+    <form action="mailto:vibrantcleaningsolutionsllc@gmail.com" method="post" enctype="text/plain">
+      
+      <!-- Name / Email / Phone -->
+      <div class="row mb-3">
+        <div class="col-md-4">
+          <label for="name" class="form-label">Full Name</label>
+          <input type="text" class="form-control" id="name" name="name" placeholder="Your Full Name" required>
         </div>
-        <div class="mb-3">
-          <label for="subject" class="form-label">Subject</label>
-          <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+        <div class="col-md-4">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address" required>
         </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <div class="col-md-4">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="e.g., (555) 123-4567" required>
         </div>
-        <div class="text-center">
-          <button type="submit" class="btn btn-primary" style="background-color: #ff37fa; border-color: #ff37fa;">Send Message</button>
+      </div>
+
+      <!-- Property Details -->
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="squareFootage" class="form-label">Approx. Square Footage</label>
+          <input type="text" class="form-control" id="squareFootage" name="squareFootage" placeholder="e.g., 2,000 sq ft">
         </div>
-      </form>
-    </div>
-  </section>
+        <div class="col-md-3">
+          <label for="bathrooms" class="form-label">Bathrooms</label>
+          <input type="number" class="form-control" id="bathrooms" name="bathrooms" min="0" placeholder="e.g., 2">
+        </div>
+        <div class="col-md-3">
+          <label for="halfBathrooms" class="form-label">Half Bathrooms</label>
+          <input type="number" class="form-control" id="halfBathrooms" name="halfBathrooms" min="0" placeholder="e.g., 1">
+        </div>
+      </div>
+
+      <div class="row mb-3">
+        <div class="col-md-6">
+          <label for="bedrooms" class="form-label">Bedrooms</label>
+          <input type="number" class="form-control" id="bedrooms" name="bedrooms" min="0" placeholder="e.g., 3">
+        </div>
+        <div class="col-md-6">
+          <label for="pets" class="form-label">Any Pets?</label>
+          <input type="text" class="form-control" id="pets" name="pets" placeholder="e.g., 2 dogs, 1 cat">
+        </div>
+      </div>
+
+      <!-- Service Frequency -->
+      <div class="mb-3">
+        <label for="frequency" class="form-label">How Often Would You Like Services?</label>
+        <select class="form-select" id="frequency" name="frequency" required>
+          <option value="" disabled selected>Select Frequency</option>
+          <option value="one-time">One-Time Cleaning</option>
+          <option value="weekly">Weekly</option>
+          <option value="bi-weekly">Bi-Weekly</option>
+          <option value="monthly">Monthly</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Subject / Message -->
+      <div class="mb-3">
+        <label for="subject" class="form-label">Subject</label>
+        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+      </div>
+
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+
+      <!-- Submit -->
+      <div class="text-center">
+        <button type="submit" class="btn btn-primary" style="background-color: #ff37fa; border-color: #ff37fa;">Send Message</button>
+      </div>
+
+    </form>
+  </div>
+</section>
+
 
   <footer></footer>
 

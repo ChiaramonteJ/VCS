@@ -41,10 +41,50 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
   <link rel="stylesheet" href="styles/main.css">
+
+  <!--JSON-LD Structured Data -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Vibrant Cleaning Solutions LLC",
+  "image": "https://vibrantcleaningsolutionsllc.com/images/hero/VCS_social_media_image.png",
+  "url": "https://vibrantcleaningsolutionsllc.com/",
+  "telephone": "269-680-7495",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "West Michigan",
+    "addressRegion": "MI",
+    "addressCountry": "US"
+  },
+  "description": "Eco-friendly and professional home cleaning services serving West Michigan from Grand Rapids to Kalamazoo and the Lake Michigan lakeshore.",
+  "areaServed": "West Michigan",
+  "sameAs": [
+    "https://www.facebook.com/vibrantcleaningsolutions",
+    "https://www.instagram.com/vibrantcleaningsolutions"
+  ]
+}
+</script>
+
 </head>
 
  <body>
-  <header></header>
+    <header id="site-header">
+  <!-- Fallback header for SEO and no-JS users -->
+  <div class="fallback-header" style="background:#ff37fa; padding:10px;">
+    <a href="index.html">
+      <img src="images/logo/black_vcs_logo.png" width="90" alt="Vibrant Cleaning Solutions Logo">
+    </a>
+    <nav>
+      <a href="services.html" class="text-white">Services</a> |
+      <a href="promotions.html" class="text-white">Promotions</a> |
+      <a href="stories.html" class="text-white">Stories</a> |
+      <a href="about.html" class="text-white">About</a> |
+      <a href="contact.html" class="text-white">Contact</a>
+    </nav>
+  </div>
+</header>
+
   <!-- Facebook JavaScript for Facebook page link-->
   
   <!-- Hero Section -->
@@ -60,62 +100,109 @@
   </section>
 
   <!-- About Section -->
-  <section class="about-section py-5">
-    <div class="container text-center">
-      <h2>About Us</h2>
-      <p>Welcome to Vibrant Cleaning Solutions, serving West Michigan. We clean from Grand Rapids down to Kalamazoo and west to the Lake Michigan Lake Shore.</p> <p> At Vibrant Cleaning Solutions, we take pride in providing top-notch residential cleaning services tailored to meet your unique needs. We offer you a choice between our all-natural cleaning products and standard cleaning solutions to cater to your unique needs.Whether you prefer eco-friendly or traditional cleaning, Vibrant Cleaning Solutions has you covered for a spotless and healthy home environment. Choose the cleaning solution that suits you best and make your home Vibrant Clean!</p>
-      <a href="about.html" class="btn btn-outline-dark">Learn More</a>
-    </div>
-  </section>
+<section class="about-section py-5">
+  <div class="container text-center">
+    <h2>About Vibrant Cleaning Solutions</h2>
+    <p>Serving Grand Rapids, Kalamazoo, and the Lake Michigan lakeshore, Vibrant Cleaning Solutions LLC provides top-notch residential cleaning tailored to your needs.</p>
+    <p>Our certified and trained team uses eco-friendly, non-toxic cleaning products to keep your home safe and spotless. With over <strong>10 years of experience</strong>, we pride ourselves on reliability, attention to detail, and customer satisfaction. Choose Vibrant Cleaning Solutions for a clean, healthy, and vibrant home environment.</p>
+    <a href="about.html" class="btn btn-outline-dark mt-3">Learn More About Us</a>
+  </div>
+</section>
+
 
   <!-- Services Section -->
 <section class="services-section py-5 bg-light">
-    <div class="container">
-      <h2 class="text-center">Our Services</h2>
-      <div class="row text-center mt-4">
-        <!-- Service Box 1 -->
-        <div class="col-md-4">
-          <div class="service-box">
-            <i class="bi bi-house-door-fill fs-1"></i>
-            <h3>Residential Cleaning</h3>
-            <p>Weekly, bi-weekly, and deep cleaning options available.</p>
-          </div>
-        </div>
-        <!-- Service Box 2 -->
-        <div class="col-md-4">
-          <div class="service-box">
-            <i class="bi bi-flower1 fs-1"></i>
-            <h3>Eco-Friendly Products</h3>
-            <p>We use all-natural, safe cleaning products.</p>
-          </div>
-        </div>
-        <!-- Service Box 3 -->
-        <div class="col-md-4">
-          <div class="service-box">
-            <i class="bi bi-calendar3-week-fill fs-1"></i>
-            <h3>Flexible Scheduling</h3>
-            <p>Choose a cleaning schedule that works for you.</p>
-          </div>
+  <div class="container">
+    <h2 class="text-center">Our Cleaning Services</h2>
+    <div class="row text-center mt-4">
+      <!-- Service Box 1 -->
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-house-door-fill fs-1"></i>
+          <h3>Residential Cleaning</h3>
+          <p>Weekly, bi-weekly, or deep cleaning options for kitchens, bathrooms, bedrooms, and living areas. Tailored to fit your home and schedule.</p>
         </div>
       </div>
-      <div class="text-center mt-4">
-        <a href="services.html" class="btn btn-dark">View All Services</a>
+      <!-- Service Box 2 -->
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-flower1 fs-1"></i>
+          <h3>Eco-Friendly Cleaning</h3>
+          <p>All-natural, non-toxic cleaning products safe for children, pets, and the environment. Professional results without harsh chemicals.</p>
+        </div>
+      </div>
+      <!-- Service Box 3 -->
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-calendar3-week-fill fs-1"></i>
+          <h3>Flexible Scheduling</h3>
+          <p>We work around your lifestyle. Morning, afternoon, or weekend appointments available. Customize your cleaning frequency and services.</p>
+        </div>
       </div>
     </div>
-  </section>
+    <div class="text-center mt-4">
+      <a href="services.html" class="btn btn-dark">View All Services</a>
+    </div>
+  </div>
+</section>
+
+  <!-- FAQ Section -->
+   <section class="faq-section py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+            How often should I schedule cleaning?
+          </button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faqHeading1" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            We offer weekly, bi-weekly, or monthly cleaning options. Choose the schedule that fits your home and lifestyle.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+            Are your cleaning products safe for pets and children?
+          </button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faqHeading2" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! We use eco-friendly, non-toxic products that are safe for both children and pets while providing professional results.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqHeading3">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+            Do you provide deep cleaning or move-in/move-out services?
+          </button>
+        </h2>
+        <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faqHeading3" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Absolutely! We provide comprehensive deep cleaning and move-in/move-out services for homes of all sizes.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
   <!-- Facebook Plugin Code-->
    
 <!-- Gallery Section -->
 <section class="gallery-section py-5 bg-light">
     <div class="container">
-      <h2 class="text-center mb-4"></h2>
+      <h2 class="text-center mb-4">More From Vibrant Cleaning Solutions</h2>
       <div class="row g-4">
         <!-- Image 1 -->
         <div class="col-md-3">
           <div class="card">
             <a href="images/homepage/AHCA_CERT.png" data-bs-toggle="modal" data-bs-target="#imageModal1">
-              <img src="images/homepage/AHCA_CERT.png" class="card-img-top" alt="Image 1">
+              <img src="images/homepage/AHCA_CERT.png" class="card-img-top" alt="AHCA Certification" loading="lazy">
             </a>
             <div class="card-body text-center">
               <p class="card-text">AHCA Certified</p>
@@ -126,7 +213,7 @@
         <div class="col-md-3">
           <div class="card">
             <a href="images/homepage/standard_egift_1x1.jpeg" data-bs-toggle="modal" data-bs-target="#imageModal2">
-              <img src="images/homepage/standard_egift_1x1.jpeg" class="card-img-top" alt="Image 2">
+              <img src="images/homepage/standard_egift_1x1.jpeg" class="card-img-top" alt="Standard e gift card" loading="lazy">
             </a>
             <div class="card-body text-center">
               <p class="card-text">Our eGift Cards</p>
@@ -137,7 +224,7 @@
         <div class="col-md-3">
           <div class="card">
             <a href="images/homepage/ala_cart_1x1.jpeg" data-bs-toggle="modal" data-bs-target="#imageModal3">
-              <img src="images/homepage/ala_cart_1x1.jpeg" class="card-img-top" alt="Image 3">
+              <img src="images/homepage/ala_cart_1x1.jpeg" class="card-img-top" alt="Ala Cart Services" loading="lazy">
             </a>
             <div class="card-body text-center">
               <p class="card-text">Ala Cart Services</p>
@@ -148,7 +235,7 @@
         <div class="col-md-3">
           <div class="card">
             <a href="images/homepage/VCS_Venmo_QR.png" data-bs-toggle="modal" data-bs-target="#imageModal4">
-              <img src="images/homepage/VCS_Venmo_QR.png" class="card-img-top" alt="Image 4">
+              <img src="images/homepage/VCS_Venmo_QR.png" class="card-img-top" alt="Pay by Venmo" loading="lazy">
             </a>
             <div class="card-body text-center">
               <p class="card-text">Pay by Venmo</p>
@@ -208,19 +295,19 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="text-center">
-              <p class="fs-4">"AMAZING!!! Extremely satisfied with the cleaning services provided.  I completely trust them and look forward to the days they are coming.  Easy to communicate with, fair pricing, superb cleaning.  Would highly recommend!"</p>
+              <p class="fs-4">⭐⭐⭐⭐⭐ "AMAZING!!! Extremely satisfied with the cleaning services provided.  I completely trust them and look forward to the days they are coming.  Easy to communicate with, fair pricing, superb cleaning.  Would highly recommend!"</p>
               <p>- Jen R</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="text-center">
-              <p class="fs-4">"Vibrant Cleaning is saving my summer! Flexible, great at communicating, and they do a great job!"</p>
+              <p class="fs-4">⭐⭐⭐⭐⭐ "Vibrant Cleaning is saving my summer! Flexible, great at communicating, and they do a great job!"</p>
               <p>- Keri P</p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="text-center">
-              <p class="fs-4">"Love this team and love the owner, Nichole. Absolutely amazing service, down to earth people and they do excellent work. I trust them and I get excited to have them in my home! You will not be disappointed. Vibrant Cleaning Solutions lifts a huge weight off this mom of 3’s shoulders!"</p>
+              <p class="fs-4">⭐⭐⭐⭐⭐ "Love this team and love the owner, Nichole. Absolutely amazing service, down to earth people and they do excellent work. I trust them and I get excited to have them in my home! You will not be disappointed. Vibrant Cleaning Solutions lifts a huge weight off this mom of 3’s shoulders!"</p>
               <p>- Allison H</p>
             </div>
           </div>
@@ -237,7 +324,22 @@
     </div>
   </section>
 
-  <footer></footer>
+  <!-- Call to Action Section -->
+   <section class="cta-section py-5 text-center bg-dark text-white">
+  <div class="container">
+    <h2>Ready for a Vibrantly Clean Home?</h2>
+    <p class="lead">Book your cleaning today or reach out to learn more.</p>
+    <a href="contact.html" class="btn btn-light btn-lg mt-3">Contact Us</a>
+  </div>
+</section>
+  <!-- Footer Section -->
+    <footer id="site-footer">
+  <!-- Fallback footer if JS fails -->
+  <div class="fallback-footer text-center py-3" style="background:#222; color:white;">
+    <p>&copy; 2025 Vibrant Cleaning Solutions LLC</p>
+    <p><a href="contact.html" style="color:#fff;">Contact Us</a></p>
+  </div>
+</footer>
 
   <script src="scripts/nav.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

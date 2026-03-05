@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const footer = document.querySelector("footer");
 
   // ---- Load HEADER ----
-  fetch("./components/header.html")
+  fetch("/components/header.html")
     .then(res => res.ok ? res.text() : null)
     .then(data => {
       if (data) {
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
   // ---- Load FOOTER ----
-  fetch("./components/footer.html")
+  fetch("/components/footer.html")
     .then(res => res.ok ? res.text() : null)
     .then(data => {
       if (data) {

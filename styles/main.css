@@ -64,6 +64,29 @@ body {
     color: black;
   }
   
+  .city-link {
+    display: block;
+    padding: 15px;
+    background-color: #ff37fa;
+    border: 1px solid #333;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.2s ease;
+}
+
+.city-link:hover {
+    background-color: #ffc1fd;
+    color: #000;
+}
+
+.city-link.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
   /* Cards */
   .card {
     background-color: white;

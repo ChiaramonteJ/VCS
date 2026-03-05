@@ -24,6 +24,12 @@ body {
     background-color: white; /* Ensure the hamburger menu is visible */
   }
   
+.disabled-link {
+  pointer-events: none;
+  color: #999;
+  text-decoration: none;
+}
+
 /* Book Now Button */
 .navbar .btn {
     background-color: #ffc1fd; /* Accent color */

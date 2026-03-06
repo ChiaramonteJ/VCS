@@ -250,6 +250,23 @@ body {
 }
 
 /* Services Section */
+
+.service-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.service-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border: none;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.service-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.15);
+}
 .services-section {
     padding: 2rem 0;
   }

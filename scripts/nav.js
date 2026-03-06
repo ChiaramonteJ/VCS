@@ -70,21 +70,29 @@ document.addEventListener("DOMContentLoaded", () => {
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#">Services</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="giftcard.html">Gift Cards</a></li>
-                  <li><a class="dropdown-item" href="all-services.html">All Services</a></li>
-                  <li><a class="dropdown-item" href="deep-cleaning.html">Deep Cleaning</a></li>
-                  <li><a class="dropdown-item" href="appliance-cleaning.html">Appliance Cleaning</a></li>
-                  <li><a class="dropdown-item" href="regular-cleaning.html">Regular Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/all-services/">All Services</a></li>
+                  <li><a class="dropdown-item" href="/services/free-quote/">Free Quote</a></li>
+                  <li><a class="dropdown-item" href="/services/basic-clean/">Basic Clean</a></li>
+                  <li><a class="dropdown-item" href="/services/weekly-clean/">Weekly Clean</a></li>
+                  <li><a class="dropdown-item" href="/services/bi-weekly-cleaning/">Bi-Weekly Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/services/monthly-cleaning/">Monthly Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/services/deep-clean/">Deep Clean</a></li>
+                  <li><a class="dropdown-item" href="/services/mini-deep-clean/">Mini Deep Clean</a></li>
+                  <li><a class="dropdown-item" href="/services/appliance-cleaning/">Appliance Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/services/laundry-service/">Laundry Service</a></li>
+                  <li><a class="dropdown-item" href="/services/maintenance-cleaning/">Maintenance Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/services/move-out-cleaning/">Move-Out Cleaning</a></li>
+                  <li><a class="dropdown-item" href="/giftcard.html">Gift Cards</a></li>
                 </ul>
               </li>
 
-              <li class="nav-item"><a class="nav-link text-white" href="promotions.html">Promotions</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="stories.html">Stories</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
-              <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="/promotions/">Promotions</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="/stories/">Stories</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="/about/">About</a></li>
+              <li class="nav-item"><a class="nav-link text-white" href="/contact/">Contact</a></li>
 
               <li class="nav-item">
-                <a class="btn btn-light text-black" href="https://clienthub.getjobber.com/booking/ad5dbf5f-38f1-4095-a33e-8702c4477775" 
+                <a class="btn btn-light text-black" href="https://clienthub.getjobber.com/hubs/d9e1257e-2977-47ab-9813-d8b40251c361/public/requests/2173338/new" 
                    target="_blank" rel="noopener noreferrer">BOOK NOW</a>
               </li>
 

@@ -122,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <h2 class="h5 mb-3">Vibrant Cleaning Solutions LLC</h2>
               <p class="mb-3">
                 Professional residential cleaning services across West Michigan, including
-                Grand Rapids, Kalamazoo, and surrounding communities.
+                Grand Rapids, Allegan, and surrounding communities.
               </p>
               <div class="d-flex flex-wrap gap-2">
                 <a

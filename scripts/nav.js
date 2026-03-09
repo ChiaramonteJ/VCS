@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
                   <li><a class="dropdown-item" href="/services/laundry-service/">Laundry Service</a></li>
                   <li><a class="dropdown-item" href="/services/maintenance-cleaning/">Maintenance Cleaning</a></li>
                   <li><a class="dropdown-item" href="/services/move-out-cleaning/">Move-Out Cleaning</a></li>
-                  <li><a class="dropdown-item" href="/giftcard.html">Gift Cards</a></li>
+                  <li><a class="dropdown-item" href="/promotions/giftcard/">Gift Cards</a></li>
                 </ul>
               </li>
 
@@ -155,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <li class="mb-2"><a href="/services/deep-clean/" class="link-light text-decoration-none">Deep Cleaning</a></li>
                 <li class="mb-2"><a href="/services/move-out-cleaning/" class="link-light text-decoration-none">Move-Out Cleaning</a></li>
                 <li class="mb-2"><a href="/services/appliance-cleaning/" class="link-light text-decoration-none">Appliance Cleaning</a></li>
-                <li><a href="/giftcard.html" class="link-light text-decoration-none">Gift Cards</a></li>
+                <li><a href="/promotions/giftcard/" class="link-light text-decoration-none">Gift Cards</a></li>
               </ul>
             </div>
 

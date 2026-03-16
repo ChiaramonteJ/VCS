@@ -94,6 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 </ul>
               </li>
 
+              <li class="nav-item"><a class="nav-link text-white" href="/before-after/">Before &amp; After</a></li>
               <li class="nav-item"><a class="nav-link text-white" href="/promotions/">Promotions</a></li>
               <li class="nav-item"><a class="nav-link text-white" href="/stories/">Stories</a></li>
               <li class="nav-item"><a class="nav-link text-white" href="/about/">About</a></li>
@@ -142,6 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <ul class="list-unstyled mb-0">
                 <li class="mb-2"><a href="/" class="link-light text-decoration-none">Home</a></li>
                 <li class="mb-2"><a href="/all-services/" class="link-light text-decoration-none">All Services</a></li>
+                <li class="mb-2"><a href="/before-after/" class="link-light text-decoration-none">Before &amp; After</a></li>
                 <li class="mb-2"><a href="/service-area/" class="link-light text-decoration-none">Service Area</a></li>
                 <li class="mb-2"><a href="/about/" class="link-light text-decoration-none">About</a></li>
                 <li><a href="/contact/" class="link-light text-decoration-none">Contact</a></li>

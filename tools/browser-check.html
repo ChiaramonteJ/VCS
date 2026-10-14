@@ -1,0 +1,47 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Local VCS browser checks</title></head>
+<body><pre id="results">RUNNING</pre><iframe id="page" title="Page under test" style="height:1000px;border:0"></iframe>
+<script>
+(async () => {
+ const paths = ["/404.html","/","/thank-you.html","/about/","/all-services/","/before-after/","/contact/","/promotions/","/promotions/giftcard/","/service-area/","/service-area/alamo-mi/","/service-area/allegan-mi/","/service-area/byron-center-mi/","/service-area/caledonia-mi/","/service-area/dorr-mi/","/service-area/fennville-mi/","/service-area/grand-rapids-mi/","/service-area/gun-lake-mi/","/service-area/holland-mi/","/service-area/hopkins-mi/","/service-area/hudsonville-mi/","/service-area/jenison-mi/","/service-area/martin-mi/","/service-area/middleville-mi/","/service-area/nazareth-mi/","/service-area/orangeville-mi/","/service-area/otsego-mi/","/service-area/plainwell-mi/","/service-area/saugatuck-mi/","/service-area/wayland-mi/","/service-area/zeeland-mi/","/services/","/services/appliance-cleaning/","/services/basic-clean/","/services/bi-weekly-cleaning/","/services/deep-clean/","/services/free-quote/","/services/laundry-service/","/services/maintenance-cleaning/","/services/mini-deep-clean/","/services/monthly-cleaning/","/services/move-out-cleaning/","/services/weekly-clean/","/stories/","/stories/benefits-of-eco-friendly-cleaning-products/","/stories/organizing-tips-for-a-cleaner-home/"];
+ if(location.hostname!=="localhost") throw new Error("Run checks only on the localhost preview.");
+ const frame = document.querySelector("iframe"), results = [];
+ const pause = ms => new Promise(r => setTimeout(r, ms));
+ for (const width of [375,768,1440]) {
+  frame.style.width = width + "px";
+  for (const path of paths) {
+   await new Promise(resolve => { frame.onload = resolve; frame.src = path; });
+   await pause(100);
+   const win=frame.contentWindow, doc=frame.contentDocument, failures=[];
+   if(doc.documentElement.scrollWidth > width+1) failures.push("horizontal overflow: "+doc.documentElement.scrollWidth);
+   if(doc.querySelectorAll("main").length!==1) failures.push("main landmark");
+   if(!doc.querySelector("#site-header nav")) failures.push("navigation absent");
+   if(!doc.querySelector("a[href*='clienthub.getjobber.com']")) failures.push("quote link absent");
+   if(!doc.querySelector("a.skip-link") || !doc.querySelector("#main-content")) failures.push("skip target absent");
+   const hero=doc.querySelector(".hero-logo"); if(hero && !hero.complete) await pause(200); if(hero && !hero.naturalWidth) failures.push("hero image failed");
+   const bootstrap=!!win.bootstrap;
+   if(!bootstrap) failures.push("Bootstrap unavailable");
+   const toggler=doc.querySelector(".navbar-toggler"), menu=doc.querySelector("#navbarNav");
+   if(width<1200 && bootstrap) {
+    toggler.click(); await pause(400);
+    if(toggler.getAttribute("aria-expanded")!=="true" || !menu.classList.contains("show")) failures.push("mobile menu did not open");
+   }
+   const dropdown=doc.querySelector("#servicesDropdown");
+   if(bootstrap) {
+    dropdown.click(); await pause(30);
+    if(!doc.querySelector(".dropdown-menu.show")) failures.push("services dropdown did not open");
+   }
+   const accordion=doc.querySelector(".accordion-button");
+   if(accordion && bootstrap) {
+    accordion.click(); await pause(400);
+    const target=doc.querySelector(accordion.getAttribute("data-bs-target"));
+    if(accordion.getAttribute("aria-expanded")!==String(target.classList.contains("show"))) failures.push("FAQ control state mismatch");
+   }
+   if(win.previewErrors && win.previewErrors.length) failures.push(...win.previewErrors);
+   results.push({path,width,bootstrap,failures});
+   document.querySelector("#results").textContent=JSON.stringify({status:"RUNNING",results},null,2);
+  }
+ }
+ document.querySelector("#results").textContent=JSON.stringify({status:"DONE",passed:results.filter(r=>!r.failures.length).length,total:results.length,results},null,2);
+ frame.remove();
+})().catch(e=>document.querySelector("#results").textContent="ERROR "+e.stack);
+</script></body></html>

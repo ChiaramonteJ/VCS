@@ -1,0 +1,13 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex"><title>Image conversion utility</title></head><body><pre id="results">RUNNING</pre><script>
+(async()=>{
+const paths=["/images/promotions/spring_clean.png","/images/promotions/OneTimeDeepClean.png","/images/pagebanners/Red-Hearts.png","/images/promotions/SantaIsComing.png","/images/blog/Benefits_of_Natural.png","/images/blog/Cleaning_Practices.png","/images/blog/Trusted_Partner.png","/images/hero/vibrant-cleaning-solutions-hero-company-name.png"];
+const results=[];
+for(const path of paths){
+const img=new Image();await new Promise((resolve,reject)=>{img.onload=resolve;img.onerror=reject;img.src=path;});
+const canvas=document.createElement("canvas");canvas.width=img.naturalWidth;canvas.height=img.naturalHeight;
+canvas.getContext("2d").drawImage(img,0,0);
+results.push({path,width:canvas.width,height:canvas.height,data:canvas.toDataURL("image/webp",0.86).split(",")[1]});
+}
+document.querySelector("#results").textContent=JSON.stringify({status:"DONE",results});
+})().catch(e=>document.querySelector("#results").textContent="ERROR "+e.stack);
+</script></body></html>

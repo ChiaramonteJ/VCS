@@ -1,338 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/allegan-mi/</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/martin-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/wayland-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/nazareth-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/middleville-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/hopkins-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/gun-lake-mi/</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/dorr-mi/</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/caledonia-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/alamo-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/byron-center-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/fennville-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/holland-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/otsego-mi/</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/plainwell-mi/</loc>
-    <lastmod>2026-04-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/saugatuck-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/zeeland-mi/</loc>
-    <lastmod>2026-03-05</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/grand-rapids-mi/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/hudsonville-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/jenison-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/service-area/orangeville-mi/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/about/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/before-after/</loc>
-    <lastmod>2026-03-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/promotions/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/all-services/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/regular-cleaning/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/deep-cleaning/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/contact/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/appliance-cleaning/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/stories/</loc>
-    <lastmod>2026-03-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/free-quote/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/basic-clean/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/weekly-clean/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/bi-weekly-cleaning/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/monthly-cleaning/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/deep-clean/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/mini-deep-clean/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/appliance-cleaning/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/laundry-service/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/maintenance-cleaning/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/services/move-out-cleaning/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/promotions/giftcard/</loc>
-    <lastmod>2026-03-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/stories/organizing-tips-for-a-cleaner-home/</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/stories/benefits-of-eco-friendly-cleaning-products/</loc>
-    <lastmod>2026-03-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-
-  <url>
-    <loc>https://vibrantcleaningsolutionsllc.com/thank-you.html</loc>
-    <lastmod>2026-03-07</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.4</priority>
-  </url>
-
+  <url><loc>https://vibrantcleaningsolutionsllc.com/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/about/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/all-services/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/before-after/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/contact/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/promotions/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/promotions/giftcard/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/alamo-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/allegan-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/byron-center-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/caledonia-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/dorr-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/fennville-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/grand-rapids-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/gun-lake-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/holland-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/hopkins-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/hudsonville-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/jenison-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/martin-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/middleville-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/nazareth-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/orangeville-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/otsego-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/plainwell-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/saugatuck-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/wayland-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/service-area/zeeland-mi/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/appliance-cleaning/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/basic-clean/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/bi-weekly-cleaning/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/deep-clean/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/free-quote/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/laundry-service/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/maintenance-cleaning/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/mini-deep-clean/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/monthly-cleaning/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/move-out-cleaning/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/services/weekly-clean/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/stories/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/stories/benefits-of-eco-friendly-cleaning-products/</loc></url>
+  <url><loc>https://vibrantcleaningsolutionsllc.com/stories/organizing-tips-for-a-cleaner-home/</loc></url>
 </urlset>
